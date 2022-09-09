@@ -1,0 +1,97 @@
+.nav {
+    padding: 15px;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 40px;
+}
+
+.name {
+    padding: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+body {
+    margin-bottom: 90px;
+    animation-name: opening;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+img[alt="profile pic"] {
+    width: 100%;
+    height: auto;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: pixelated;
+}
+
+.welcome-section {
+    padding-bottom: 60px;
+}
+
+.needsMargin {
+    margin-bottom: 50px !important;
+}
+
+.needsMargin_2 {
+    margin-bottom: 40px !important;
+}
+
+.github-link {
+    cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAzElEQVRYR+2X0Q6AIAhF5f8/2jYXZkwEjNSVvVUjDpcrGgT7FUkI2D9xRfQETwNIiWO85wfINfQUEyxBG2ArsLwC0jioGt5zFcwF4OYDPi/mBYKm4t0U8ATgRm3ThFoAqkhNgWkA0jJLvaOVSs7j3qMnSgXWBMiWPXe94QqMBMBc1VZIvaTu5u5pQewq0EqNZvIEMCmxAawK0DNkay9QmfFNAJUXfgGgUkLaE7j/h8fnASkxHTz0DGIBMCnBeeM7AArpUd3mz2x3C7wADglA8BcWMZhZAAAAAElFTkSuQmCC)
+            14 0,
+        pointer;
+    text-decoration: none;
+    color: #333;
+}
+
+.github-link:hover {
+    color: #eecf1e;
+}
+
+.lil-balloon {
+    height: 50px;
+    padding: 10px 10px 0px 10px;
+    top: -40px;
+    font-size: 14px;
+    box-sizing: content-box;
+    animation-name: forkMe;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.m-top {
+    margin-top: 30px;
+}
+
+.nes-progress {
+    height: 25px !important;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    color: #ccc;
+}
+
+@keyframes opening {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+@keyframes forkMe {
+    0% {
+        top: -40px;
+    }
+    50% {
+        top: -45px;
+    }
+    100% {
+        top: -40px;
+    }
+}
